@@ -109,3 +109,13 @@ export const menu = [
     ],
   },
 ];
+
+export const topDealUsers = [
+  {
+    id: 1,
+    img: '',
+    username: 'Elva McDonald',
+    email: 'elva@gmail.com',
+    amount: '3.655',
+  },
+];
