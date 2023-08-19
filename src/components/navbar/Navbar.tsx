@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='logo'>
         <img src='logo.svg' alt='logo' />
-        <span>AdminDash</span>
+        <span>Library-Xpress</span>
       </div>
       <div className='icons'>
         <img src='/search.svg' alt='search_icon' />
