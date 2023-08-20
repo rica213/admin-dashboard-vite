@@ -11,6 +11,8 @@ import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import Login from "./pages/login/Login";
 import './styles/global.scss'
+import User from "./pages/user/User";
+import Product from "./pages/product/product";
 
 
 function App() {
@@ -33,28 +35,36 @@ function App() {
   }
 
   const router = createBrowserRouter([
-   {
-     path:'/',
-     element:<Layout />,
-     children:[
-       {
-         path:'/',
-         element:<Home />
-       },
-       {
-         path:'/users',
-         element:<Users />
-       }, 
-       {
-         path:'/products',
-         element:<Products />
-       },
-     ]
-   },
-   {
-     path:'/login',
-     element:<Login />
-   }
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/users",
+          element: <Users />,
+        },
+        {
+          path: "/products",
+          element: <Products />,
+        },
+        {
+          path: "/products/:id",
+          element: <Product />,
+        },
+        {
+          path: "/users/:id",
+          element: <User />,
+        },
+      ],
+    },
+    {
+      path: "/login",
+      element: <Login />,
+    },
   ]);
   return (
     <RouterProvider router={router} />
