@@ -11,44 +11,44 @@ import "./bigChartBox.scss";
 const data = [
   {
     name: "Sun",
-    books: 4000,
-    clothes: 2400,
+    science: 4000,
+    economics: 2400,
     electronic: 2400,
   },
   {
     name: "Mon",
-    books: 3000,
-    clothes: 1398,
+    science: 3000,
+    economics: 1398,
     electronic: 2210,
   },
   {
     name: "Tue",
-    books: 2000,
-    clothes: 9800,
+    science: 2000,
+    economics: 9800,
     electronic: 2290,
   },
   {
     name: "Wen",
-    books: 2780,
-    clothes: 3908,
+    science: 2780,
+    economics: 3908,
     electronic: 2000,
   },
   {
     name: "Thu",
-    books: 1890,
-    clothes: 4800,
+    science: 1890,
+    economics: 4800,
     electronic: 2181,
   },
   {
     name: "Fri",
-    books: 2390,
-    clothes: 3800,
+    science: 2390,
+    economics: 3800,
     electronic: 2500,
   },
   {
     name: "Sat",
-    books: 3490,
-    clothes: 4300,
+    science: 3490,
+    economics: 4300,
     electronic: 2100,
   },
 ];
@@ -56,7 +56,7 @@ const data = [
 const BigChartBox = () => {
   return (
     <div className="bigChartBox">
-      <h1>Revenue Analytics</h1>
+      <h1>Borrowed Rate</h1>
       <div className="chart">
         <ResponsiveContainer width="100%" height="100%">
           <AreaChart
@@ -73,14 +73,14 @@ const BigChartBox = () => {
             <Tooltip />
             <Area
               type="monotone"
-              dataKey="books"
+              dataKey="science"
               stackId="1"
               stroke="#8884d8"
               fill="#8884d8"
             />
             <Area
               type="monotone"
-              dataKey="clothes"
+              dataKey="economics"
               stackId="1"
               stroke="#82ca9d"
               fill="#82ca9d"
