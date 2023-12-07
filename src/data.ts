@@ -608,27 +608,27 @@ export const singleUser = {
   },
   activities: [
     {
-      text: "John Doe purchased Playstation 5 Digital Edition",
+      text: "John Doe borrowed Truth and Measure by Roslyn Sinclair",
       time: "3 day ago",
     },
     {
-      text: "John Doe added 3 items into their wishlist",
+      text: "John Doe requested Truth and Measure by Roslyn Sinclair",
       time: "1 week ago",
     },
     {
-      text: "John Doe purchased Sony Bravia KD-32w800",
+      text: "John Doe returned The Brutal Truth by Lee Winter",
       time: "2 weeks ago",
     },
     {
-      text: "John Doe reviewed a product",
+      text: "John Doe borrowed Brutal Truth by Lee Winter",
       time: "1 month ago",
     },
     {
-      text: "John Doe added 1 items into their wishlist",
+      text: "John Doe returned The Truth by Erica Lee",
       time: "1 month ago",
     },
     {
-      text: "John Doe reviewed a product",
+      text: "John Doe borrowed The Truth by Erica Lee",
       time: "2 months ago",
     },
   ],
